@@ -1,0 +1,20 @@
+PODS:
+  - IQKeyboardManagerSwift (6.5.4)
+  - SwiftyGif (5.2.0)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - SwiftyGif
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManagerSwift
+    - SwiftyGif
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: 2dde0fc70110e8eac7ccce2a46fdbec6a850b414
+  SwiftyGif: b85c6b33a9411859d9e1db998b6a8214aea942df
+
+PODFILE CHECKSUM: 143a138618cb5f9c66f5eb79527fc968fe105eba
+
+COCOAPODS: 1.8.4

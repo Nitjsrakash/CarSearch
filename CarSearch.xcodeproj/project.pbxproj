@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041564D72390DBA700F37BBF /* SqlitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041564D62390DBA700F37BBF /* SqlitManager.swift */; };
+		04180C1523CF1D49008AD59A /* LogoAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04180C1223CF1D49008AD59A /* LogoAnimationView.swift */; };
+		04180C1623CF1D4A008AD59A /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04180C1323CF1D49008AD59A /* UIView+Constraints.swift */; };
+		04180C1D23CF8F1A008AD59A /* logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04180C1C23CF8F1A008AD59A /* logo.gif */; };
+		041F933623A37BDF00F2C45E /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 041F932B23A37BDF00F2C45E /* Lato-Light.ttf */; };
+		041F933723A37BDF00F2C45E /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 041F932C23A37BDF00F2C45E /* Lato-Italic.ttf */; };
+		041F933823A37BDF00F2C45E /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 041F932D23A37BDF00F2C45E /* Lato-Regular.ttf */; };
+		041F933923A37BDF00F2C45E /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 041F932E23A37BDF00F2C45E /* OFL.txt */; };
+		041F933A23A37BDF00F2C45E /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 041F932F23A37BDF00F2C45E /* Lato-BlackItalic.ttf */; };
+		041F933B23A37BDF00F2C45E /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 041F933023A37BDF00F2C45E /* Lato-LightItalic.ttf */; };
+		041F933C23A37BDF00F2C45E /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 041F933123A37BDF00F2C45E /* Lato-BoldItalic.ttf */; };
+		041F933D23A37BDF00F2C45E /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 041F933223A37BDF00F2C45E /* Lato-Thin.ttf */; };
+		041F933E23A37BDF00F2C45E /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 041F933323A37BDF00F2C45E /* Lato-Bold.ttf */; };
+		041F933F23A37BDF00F2C45E /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 041F933423A37BDF00F2C45E /* Lato-ThinItalic.ttf */; };
+		041F934023A37BDF00F2C45E /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 041F933523A37BDF00F2C45E /* Lato-Black.ttf */; };
+		0428D8D32390DA5400F4B4AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D8D22390DA5400F4B4AE /* AppDelegate.swift */; };
+		0428D8D52390DA5400F4B4AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D8D42390DA5400F4B4AE /* ViewController.swift */; };
+		0428D8D82390DA5400F4B4AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0428D8D62390DA5400F4B4AE /* Main.storyboard */; };
+		0428D8DA2390DA5500F4B4AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0428D8D92390DA5500F4B4AE /* Assets.xcassets */; };
+		0428D8DD2390DA5500F4B4AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0428D8DB2390DA5500F4B4AE /* LaunchScreen.storyboard */; };
+		0432AF0023912DA700D3CF01 /* DropDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432AEFF23912DA700D3CF01 /* DropDownViewController.swift */; };
+		043B0E6A239F712000135887 /* carbooking.sql in Resources */ = {isa = PBXBuildFile; fileRef = 043B0E69239F712000135887 /* carbooking.sql */; };
+		047DE0682398B7DB008CB8B4 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DE0672398B7DB008CB8B4 /* Constant.swift */; };
+		04A257A123ACE06200C76294 /* carbooking2.sql in Resources */ = {isa = PBXBuildFile; fileRef = 04A257A023ACE06200C76294 /* carbooking2.sql */; };
+		04CAED0523966887006285EC /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAED0423966887006285EC /* APIManager.swift */; };
+		28BB2202239F52D50018076B /* CarFiled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BB2201239F52D50018076B /* CarFiled.swift */; };
+		28BB2206239F648C0018076B /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BB2205239F64780018076B /* libsqlite3.0.tbd */; };
+		28BB2208239F64A10018076B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BB2207239F64970018076B /* libsqlite3.tbd */; };
+		7BEDDB7C86BD4EE481C4F137 /* Pods_CarSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E6673622FD15AEF42274C7 /* Pods_CarSearch.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		041564D62390DBA700F37BBF /* SqlitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqlitManager.swift; sourceTree = "<group>"; };
+		04180C1223CF1D49008AD59A /* LogoAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoAnimationView.swift; sourceTree = "<group>"; };
+		04180C1323CF1D49008AD59A /* UIView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		04180C1C23CF8F1A008AD59A /* logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = logo.gif; sourceTree = "<group>"; };
+		041F932B23A37BDF00F2C45E /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		041F932C23A37BDF00F2C45E /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		041F932D23A37BDF00F2C45E /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		041F932E23A37BDF00F2C45E /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		041F932F23A37BDF00F2C45E /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		041F933023A37BDF00F2C45E /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		041F933123A37BDF00F2C45E /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		041F933223A37BDF00F2C45E /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		041F933323A37BDF00F2C45E /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		041F933423A37BDF00F2C45E /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		041F933523A37BDF00F2C45E /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		0428D8CF2390DA5400F4B4AE /* شيخ المعارض.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "شيخ المعارض.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0428D8D22390DA5400F4B4AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0428D8D42390DA5400F4B4AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0428D8D72390DA5400F4B4AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0428D8D92390DA5500F4B4AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0428D8DC2390DA5500F4B4AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0428D8DE2390DA5500F4B4AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0432AEFF23912DA700D3CF01 /* DropDownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownViewController.swift; sourceTree = "<group>"; };
+		043B0E69239F712000135887 /* carbooking.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = carbooking.sql; sourceTree = "<group>"; };
+		047DE0672398B7DB008CB8B4 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		04A257A023ACE06200C76294 /* carbooking2.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = carbooking2.sql; sourceTree = "<group>"; };
+		04CAED0423966887006285EC /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		28BB2201239F52D50018076B /* CarFiled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarFiled.swift; sourceTree = "<group>"; };
+		28BB2205239F64780018076B /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		28BB2207239F64970018076B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		86CC54D4175FE184983262FE /* Pods-CarSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarSearch.debug.xcconfig"; path = "Target Support Files/Pods-CarSearch/Pods-CarSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		E2688E7A35F090B68FCF406A /* Pods-CarSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarSearch.release.xcconfig"; path = "Target Support Files/Pods-CarSearch/Pods-CarSearch.release.xcconfig"; sourceTree = "<group>"; };
+		F5E6673622FD15AEF42274C7 /* Pods_CarSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0428D8CC2390DA5400F4B4AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BB2208239F64A10018076B /* libsqlite3.tbd in Frameworks */,
+				28BB2206239F648C0018076B /* libsqlite3.0.tbd in Frameworks */,
+				7BEDDB7C86BD4EE481C4F137 /* Pods_CarSearch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041F932A23A37B8F00F2C45E /* Car Font */ = {
+			isa = PBXGroup;
+			children = (
+				041F933523A37BDF00F2C45E /* Lato-Black.ttf */,
+				041F932F23A37BDF00F2C45E /* Lato-BlackItalic.ttf */,
+				041F933323A37BDF00F2C45E /* Lato-Bold.ttf */,
+				041F933123A37BDF00F2C45E /* Lato-BoldItalic.ttf */,
+				041F932C23A37BDF00F2C45E /* Lato-Italic.ttf */,
+				041F932B23A37BDF00F2C45E /* Lato-Light.ttf */,
+				041F933023A37BDF00F2C45E /* Lato-LightItalic.ttf */,
+				041F932D23A37BDF00F2C45E /* Lato-Regular.ttf */,
+				041F933223A37BDF00F2C45E /* Lato-Thin.ttf */,
+				041F933423A37BDF00F2C45E /* Lato-ThinItalic.ttf */,
+				041F932E23A37BDF00F2C45E /* OFL.txt */,
+			);
+			path = "Car Font";
+			sourceTree = "<group>";
+		};
+		0428D8C62390DA5400F4B4AE = {
+			isa = PBXGroup;
+			children = (
+				0428D8D12390DA5400F4B4AE /* CarSearch */,
+				0428D8D02390DA5400F4B4AE /* Products */,
+				31FFEA17E482AC1F9A8495B7 /* Pods */,
+				4B4A6B30AD2C944169922D06 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0428D8D02390DA5400F4B4AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0428D8CF2390DA5400F4B4AE /* شيخ المعارض.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0428D8D12390DA5400F4B4AE /* CarSearch */ = {
+			isa = PBXGroup;
+			children = (
+				043B0E69239F712000135887 /* carbooking.sql */,
+				04A257A023ACE06200C76294 /* carbooking2.sql */,
+				0428D8D22390DA5400F4B4AE /* AppDelegate.swift */,
+				0428D8D42390DA5400F4B4AE /* ViewController.swift */,
+				0432AEFF23912DA700D3CF01 /* DropDownViewController.swift */,
+				041564D62390DBA700F37BBF /* SqlitManager.swift */,
+				28BB2201239F52D50018076B /* CarFiled.swift */,
+				047DE0672398B7DB008CB8B4 /* Constant.swift */,
+				04CAED0423966887006285EC /* APIManager.swift */,
+				04180C1223CF1D49008AD59A /* LogoAnimationView.swift */,
+				04180C1323CF1D49008AD59A /* UIView+Constraints.swift */,
+				0428D8D62390DA5400F4B4AE /* Main.storyboard */,
+				0428D8D92390DA5500F4B4AE /* Assets.xcassets */,
+				0428D8DB2390DA5500F4B4AE /* LaunchScreen.storyboard */,
+				04180C1C23CF8F1A008AD59A /* logo.gif */,
+				0428D8DE2390DA5500F4B4AE /* Info.plist */,
+				041F932A23A37B8F00F2C45E /* Car Font */,
+			);
+			path = CarSearch;
+			sourceTree = "<group>";
+		};
+		31FFEA17E482AC1F9A8495B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86CC54D4175FE184983262FE /* Pods-CarSearch.debug.xcconfig */,
+				E2688E7A35F090B68FCF406A /* Pods-CarSearch.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4B4A6B30AD2C944169922D06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28BB2207239F64970018076B /* libsqlite3.tbd */,
+				28BB2205239F64780018076B /* libsqlite3.0.tbd */,
+				F5E6673622FD15AEF42274C7 /* Pods_CarSearch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0428D8CE2390DA5400F4B4AE /* CarSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0428D8E12390DA5500F4B4AE /* Build configuration list for PBXNativeTarget "CarSearch" */;
+			buildPhases = (
+				FAE03841CA94CF7B16EE6602 /* [CP] Check Pods Manifest.lock */,
+				0428D8CB2390DA5400F4B4AE /* Sources */,
+				0428D8CC2390DA5400F4B4AE /* Frameworks */,
+				0428D8CD2390DA5400F4B4AE /* Resources */,
+				463B3DCAF00B9C5FF6730233 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarSearch;
+			productName = CarSearch;
+			productReference = 0428D8CF2390DA5400F4B4AE /* شيخ المعارض.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0428D8C72390DA5400F4B4AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					0428D8CE2390DA5400F4B4AE = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1100;
+					};
+				};
+			};
+			buildConfigurationList = 0428D8CA2390DA5400F4B4AE /* Build configuration list for PBXProject "CarSearch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0428D8C62390DA5400F4B4AE;
+			productRefGroup = 0428D8D02390DA5400F4B4AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0428D8CE2390DA5400F4B4AE /* CarSearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0428D8CD2390DA5400F4B4AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041F933623A37BDF00F2C45E /* Lato-Light.ttf in Resources */,
+				041F933F23A37BDF00F2C45E /* Lato-ThinItalic.ttf in Resources */,
+				041F933D23A37BDF00F2C45E /* Lato-Thin.ttf in Resources */,
+				041F933B23A37BDF00F2C45E /* Lato-LightItalic.ttf in Resources */,
+				0428D8DD2390DA5500F4B4AE /* LaunchScreen.storyboard in Resources */,
+				0428D8DA2390DA5500F4B4AE /* Assets.xcassets in Resources */,
+				041F933E23A37BDF00F2C45E /* Lato-Bold.ttf in Resources */,
+				041F933C23A37BDF00F2C45E /* Lato-BoldItalic.ttf in Resources */,
+				0428D8D82390DA5400F4B4AE /* Main.storyboard in Resources */,
+				041F933823A37BDF00F2C45E /* Lato-Regular.ttf in Resources */,
+				041F933A23A37BDF00F2C45E /* Lato-BlackItalic.ttf in Resources */,
+				041F933723A37BDF00F2C45E /* Lato-Italic.ttf in Resources */,
+				041F933923A37BDF00F2C45E /* OFL.txt in Resources */,
+				04180C1D23CF8F1A008AD59A /* logo.gif in Resources */,
+				041F934023A37BDF00F2C45E /* Lato-Black.ttf in Resources */,
+				04A257A123ACE06200C76294 /* carbooking2.sql in Resources */,
+				043B0E6A239F712000135887 /* carbooking.sql in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		463B3DCAF00B9C5FF6730233 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarSearch/Pods-CarSearch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarSearch/Pods-CarSearch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarSearch/Pods-CarSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAE03841CA94CF7B16EE6602 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarSearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0428D8CB2390DA5400F4B4AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BB2202239F52D50018076B /* CarFiled.swift in Sources */,
+				0428D8D52390DA5400F4B4AE /* ViewController.swift in Sources */,
+				0428D8D32390DA5400F4B4AE /* AppDelegate.swift in Sources */,
+				04180C1623CF1D4A008AD59A /* UIView+Constraints.swift in Sources */,
+				04CAED0523966887006285EC /* APIManager.swift in Sources */,
+				041564D72390DBA700F37BBF /* SqlitManager.swift in Sources */,
+				0432AF0023912DA700D3CF01 /* DropDownViewController.swift in Sources */,
+				04180C1523CF1D49008AD59A /* LogoAnimationView.swift in Sources */,
+				047DE0682398B7DB008CB8B4 /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0428D8D62390DA5400F4B4AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0428D8D72390DA5400F4B4AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0428D8DB2390DA5500F4B4AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0428D8DC2390DA5500F4B4AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0428D8DF2390DA5500F4B4AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		0428D8E02390DA5500F4B4AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0428D8E22390DA5500F4B4AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86CC54D4175FE184983262FE /* Pods-CarSearch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9C7JD436E;
+				INFOPLIST_FILE = CarSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Enuke.CarSearch;
+				PRODUCT_NAME = "شيخ المعارض";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0428D8E32390DA5500F4B4AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2688E7A35F090B68FCF406A /* Pods-CarSearch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9C7JD436E;
+				INFOPLIST_FILE = CarSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Enuke.CarSearch;
+				PRODUCT_NAME = "شيخ المعارض";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0428D8CA2390DA5400F4B4AE /* Build configuration list for PBXProject "CarSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0428D8DF2390DA5500F4B4AE /* Debug */,
+				0428D8E02390DA5500F4B4AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0428D8E12390DA5500F4B4AE /* Build configuration list for PBXNativeTarget "CarSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0428D8E22390DA5500F4B4AE /* Debug */,
+				0428D8E32390DA5500F4B4AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0428D8C72390DA5400F4B4AE /* Project object */;
+}
